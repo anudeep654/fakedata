@@ -1,31 +1,1820 @@
+[
 {
-posts: [
+Id: "8688ce7c-12f1-48a0-a83c-a041cd87a494",
+Name: "{profile_name}",
+Feeds: [
 {
-id: 1,
-title: "Post 1"
+Id: "ffaa31be-4118-4277-8ece-2cca8a97db5d",
+Name: "Continue Enjoying",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Continue",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Continue",
+NavigationTargetVisibility: "ClientDefined",
+Layout: "Gallery"
 },
 {
-id: 2,
-title: "Post 2"
+Id: "63d8f827-e31c-42ec-908a-9a98de8a12e4",
+Name: "My Videos",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Continue",
+ShowcardAspectRatio: "Mixed"
 },
 {
-id: 3,
-title: "Post 3"
+Id: "a2b23900-6d0f-45d1-b4ae-f472a2af7a91",
+Name: "Netflix",
+FeedType: "Dynamic",
+Uri: "udl://netflix/titles",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "586f173f-635f-423a-b312-a7c25c031606",
+Name: "TV Shows",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsetv",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "fa1764fd-a7f6-4074-8577-63befc3369bb",
+Name: "Because you watched",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemixedrecommendations",
+NavigationTargetText: "You Might Like",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "67adae07-3a5f-462a-b3b7-00362347b834",
+Name: "Your Channels",
+FeedType: "Dynamic",
+Uri: "udl://live/myStations/",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "liveTvGuide",
+NavigationTargetText: "View Guide",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "045f6c40-8bc7-4449-bc03-f89eaeb46423",
+Name: "Recordings ",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/viewable-subscription-items/",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "dvr",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "ClientDefined",
+Layout: "Gallery"
+},
+{
+Id: "4a5911d6-94c6-49ca-bddb-ae8b3af42ae2",
+Name: "Reminders",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Reminders",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "reminders",
+NavigationTargetText: "Browse Reminders",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "32272e5b-fdab-40f2-bb4e-4b8373d7115d",
+Name: "Downloads",
+FeedType: "Dynamic",
+Uri: "udl://downloads/downloadlist",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "downloads",
+NavigationTargetText: "Download Manager",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "c53e07de-b26c-456f-8c31-7302b71f11ad",
+Name: "YouMightLike",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browserecommendations",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "5c03c60a-d4d8-42a2-8b4b-6b76ecc96a26",
+Name: "Recommendations",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browserecommendations",
+NavigationTargetText: "All recommendations",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "d1345e69-a0b6-4c84-8c46-e42bb777d80d",
+Name: "MyPurchasesCatView",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Library",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "MyPurchasesCatView",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "9b5164d9-5f08-483c-baed-8de1fda0e245",
+Name: "Recommendations-Olena",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemixedrecommendations",
+NavigationTargetText: "All Recommendations",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "6719a0fd-6a01-4e79-9ead-1bd0bbf6e205",
+Name: "You Might Like -mixed",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/6719a0fd-6a01-4e79-9ead-1bd0bbf6e205",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "f2a1ef7a-ba29-427d-afca-c98697d87fa5",
+Name: "Sam Might Like - All",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browserecommendations",
+NavigationTargetText: "{0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "d0b626ee-b297-4e8c-8d3a-f87c77a8d575",
+Name: "You Might Like By Taste",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browserecommendations",
+NavigationTargetText: "{0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "b9a69c21-c0ac-4dda-88d1-b34233e07da1",
+Name: "Sam Might Like - Dynamic - FeedContent-Category",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "{0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "f7a1ab31-edec-44c0-b468-54897ece8d04",
+Name: "Recently Aired",
+FeedType: "Dynamic",
+Uri: "data://live/feeds/hubRestartTvShowcards",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "restartTv",
+NavigationTargetText: "BLAH",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "b285ef53-592d-47da-8c1f-bf786a53d634",
+Name: "Favorites",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Pins",
+ShowcardAspectRatio: "FourByThree",
+NavigationTargetUri: "favorites",
+NavigationTargetText: "All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "1ad8a384-bc80-44e5-87bb-d89145581590",
+Name: "Purchases",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Library",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "libraries",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "6f4c4b29-fd35-4dee-a45f-4b26011d6eef",
+Name: "Bookmarks",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Continue",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "be92561f-56ff-453f-b139-5b6522a28356",
+Name: "Movies",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/be92561f-56ff-453f-b139-5b6522a28356",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "aaa58ce2-d7a3-4d73-99fb-aa0924678ac8",
+Name: "testlakshmi",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/aaa58ce2-d7a3-4d73-99fb-aa0924678ac8",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsetv",
+NavigationTargetText: "All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "2356599f-8d05-47d8-8d29-17f777460662",
+Name: "Promotions",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/2356599f-8d05-47d8-8d29-17f777460662",
+ShowcardAspectRatio: "Mixed",
+IsStacked: false
+},
+{
+Id: "ea555119-34f9-4783-9896-b2974edc0362",
+Name: "Test netflix T",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Continue",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "netflix",
+NavigationTargetText: "Netflix cards TT",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "9703a6d4-0979-4dc9-a484-82d0581c63a7",
+Name: "ByW2",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/9703a6d4-0979-4dc9-a484-82d0581c63a7",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemixedrecommendations",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "c991cbcf-33d7-4f6f-90c3-ce0c2b404637",
+Name: "BYW",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/c991cbcf-33d7-4f6f-90c3-ce0c2b404637",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemixedrecommendations",
+NavigationTargetText: "View all",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+}
+]
+},
+{
+Id: "6567c103-bed2-46ac-a6d0-7b14779762e5",
+Name: "Live TV",
+Feeds: [
+{
+Id: "3514a6bb-e213-4f45-917d-224fde4904cf",
+Name: "On Now",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/playableChannels",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "liveTvGuide",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "659de4df-c552-4e81-9328-9f6d561aee17",
+Name: "Recently Aired",
+FeedType: "Dynamic",
+Uri: "data://live/feeds/hubRestartTvShowcards",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "restartTv",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "7b1f6ec6-92b8-4847-bd81-c7ec25eaff89",
+Name: "Trending Programs",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/feeds/live-trending-programs",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "e3ac19ca-2699-4bf4-a586-77643a965c14",
+Name: "On Now Program_Anna",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "onnowguide",
+NavigationTargetText: "Only on Now programs",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "354811b0-27ac-4afb-881c-065cfe416fc7",
+Name: "dynamic",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Library",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "aa4ee5f2-c823-400a-8818-98c6cf67732e",
+Name: "On now programs",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/playableChannels/",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "None",
+NavigationTargetText: "Browse {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "34e97193-d46b-4aa0-b038-a7140d871ed0",
+Name: "Pay Per View",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/payperview",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepayperview",
+NavigationTargetText: "More",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "14e8f837-83e0-40d3-b5fe-a5ba7d875d92",
+Name: "Trending",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/trending/",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "429583c4-1c40-4389-8d2c-970bbd6e02f1",
+Name: "recently_aired_comedy",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/catchup/Comedy",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "restartTv",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "88b1ceac-0bd2-47a7-abd5-1f3a8220aa3c",
+Name: "Hockey",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/playableChannels/Hockey",
+ShowcardAspectRatio: "Mixed"
+}
+]
+},
+{
+Id: "125612eb-3e48-431e-89d8-2541053b8e4b",
+Name: "On Demand",
+Feeds: [
+{
+Id: "fa3e5be4-ec34-4c74-9002-21a7525cd5da",
+Name: "Purchases",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Library",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "libraries",
+NavigationTargetText: "View {0} All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "efca0087-5e59-4631-af44-ab12610601a0",
+Name: "All Movies",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "All Movies",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "cabaeaec-e9d6-423b-a944-8fa8d6ea794c",
+Name: "TV Shows",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsetv",
+NavigationTargetText: "All TV Shows",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "3ccef8dc-341e-4860-884d-3aba82f052fe",
+Name: "Networks",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/3ccef8dc-341e-4860-884d-3aba82f052fe",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Networks",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "5a35a85d-378a-4308-9b2e-22f29fea1603",
+Name: "Networks 2",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/5a35a85d-378a-4308-9b2e-22f29fea1603",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "d0117c41-6962-43b8-99f4-07c4951639e8",
+Name: "Packages",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/packages",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepackages",
+NavigationTargetText: "Packages {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "ae1e8fb5-e37d-40a5-9f7d-81ff75c65440",
+Name: "Subscriptions",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/ae1e8fb5-e37d-40a5-9f7d-81ff75c65440",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "337106ab-7a46-4648-a062-fb2235a4c6f0",
+Name: "Recently Added",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/moviesandtvshows?orderBy=LicenseWindowStartUtc",
+ShowcardAspectRatio: "Mixed",
+IsStacked: false
+},
+{
+Id: "f9d74057-096f-455e-875b-b3bddacb6ba9",
+Name: "Family & Kids",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/f9d74057-096f-455e-875b-b3bddacb6ba9",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "8290238a-c452-4b7e-82c7-5a996c99fb19",
+Name: "CraveTV",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/8290238a-c452-4b7e-82c7-5a996c99fb19",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "page:svodbrowse?svodpkgid=8c19832c-77da-44a1-8460-d4b4ec804b93&svodpkgname=CraveTV&hasSubCat=1",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "97fa4d0d-a5c1-4db6-9dc1-82f60593fec4",
+Name: "Zones",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/Zones",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "1b71c1ad-9dca-440d-bc3f-ba28fcc9f0e8",
+Name: "Promotional Feed",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/1b71c1ad-9dca-440d-bc3f-ba28fcc9f0e8",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "d34aaf4f-ee5f-4dc7-99b5-52f84d3bece4",
+Name: "Promotion Test",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/d34aaf4f-ee5f-4dc7-99b5-52f84d3bece4",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Promotion Test",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "70e4d40c-4cd2-479b-baa7-220c82d316f2",
+Name: "Catch UPs",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/playableChannels/Reality",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "0038ff3d-dd0d-4616-8bfd-a37b23b2e833",
+Name: "MyTest",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/0038ff3d-dd0d-4616-8bfd-a37b23b2e833",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "restartTv",
+NavigationTargetText: "MyTest",
+NavigationTargetVisibility: "Always",
+Layout: "Category",
+IsStacked: false
+},
+{
+Id: "a90d2746-fcc4-4e07-9b33-9b3e1236eced",
+Name: "Promotion Dynamic Feeds",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsetv",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "44a30ab1-aaed-43e7-ad49-ecf8f7c341c6",
+Name: "You Might Like",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "0aa464f4-e3b9-4d66-b46d-6691ee0295ca",
+Name: "Sams Continue",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Continue",
+ShowcardAspectRatio: "Mixed",
+IsStacked: false
+},
+{
+Id: "e607a4a7-cbb2-4203-9cd7-6fffad98cb24",
+Name: "Channels",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/e607a4a7-cbb2-4203-9cd7-6fffad98cb24",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All Channels",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "53d258ba-07a2-492f-8c17-c17f6a068ace",
+Name: "Test",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/53d258ba-07a2-492f-8c17-c17f6a068ace",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsetv?Genre=2001",
+NavigationTargetText: "All Purchases",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "137437cd-f0e5-4c72-acec-ae9b0ab36bf5",
+Name: "PromotionCategory",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/137437cd-f0e5-4c72-acec-ae9b0ab36bf5",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "PromotionCategories",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "3e13a7cb-2590-4e5d-a8d9-9ed9b58df63d",
+Name: "YingTest",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/moviesandtvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "856e850a-6fb8-4e2f-92ee-24df870cebf2",
+Name: "test1",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/856e850a-6fb8-4e2f-92ee-24df870cebf2",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "e6afed49-de64-48fb-8ddf-6f31f63d5d9e",
+Name: "Mixed_Gallery",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/e6afed49-de64-48fb-8ddf-6f31f63d5d9e",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "6cf6a73d-f099-437b-adae-108002650ade",
+Name: "Custom_Gallery",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/6cf6a73d-f099-437b-adae-108002650ade",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
 }
 ],
-comments: [
-{
-id: 1,
-body: "some comment",
-postId: 1
+IsOnDemand: true
 },
 {
-id: 2,
-body: "some comment",
-postId: 1
+Id: "3a115ee3-c840-4801-a301-01e760566bcd",
+Name: "Recordings",
+Feeds: [
+{
+Id: "68c47a16-19e8-4044-8669-f37b3e8f7bf1",
+Name: "All Recordings",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/viewable-subscription-items/",
+ShowcardAspectRatio: "FourByThree",
+NavigationTargetUri: "dvr",
+NavigationTargetText: "All Rec",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "446cf536-2fc0-4782-9468-4e28fb9cd5dd",
+Name: "Sports",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=Sports&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "6ccf3697-f886-43b9-a928-2b98ab72f6a8",
+Name: "News",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=News&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "bf68f358-d7df-4821-8f0f-f8c0526f05dc",
+Name: "Kids",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=Children&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "80a0ec60-9e0c-4f64-8de7-74e0826facad",
+Name: "Game Show",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=Game%20Show&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "a3b78aff-59ea-42ce-8997-1e305b36ffb9",
+Name: "Other",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=Other&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "585e1294-04a2-4073-bae3-96c044a22681",
+Name: "Comedy",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$showType=TVShow&$genre=Comedy&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "dvr",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "6221e8e4-3d6e-4ddf-b113-de1a2ee0a8f3",
+Name: "Action and Adventure",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=Action and Adventure&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "dvr",
+NavigationTargetText: "{0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "5a39f59e-a37d-44e0-a955-ed0ec38031a2",
+Name: "How-to",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/subscription-items/?$genre=How-to&$recordingState=viewable&$showType=TVShow",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "dvr",
+NavigationTargetText: "{0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "f51ecca8-f692-4c56-90b3-9328576a5361",
+Name: "a rel one",
+FeedType: "Dynamic",
+Uri: "udl://dvrproxy/viewable-subscription-items/",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "this is the text6",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "2156dbda-70c6-4d33-8ba3-0b29d6cd0987",
+Name: "Alina_test_category",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/2156dbda-70c6-4d33-8ba3-0b29d6cd0987",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Sample_text",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: false
+}
+]
+},
+{
+Id: "0d9a03be-9250-427b-a4c0-47626ff434ec",
+Name: "Apps",
+Feeds: [
+{
+Id: "91e3bc3b-21d4-4198-b613-28d3ad9357af",
+Name: "ExampleComponent1",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/91e3bc3b-21d4-4198-b613-28d3ad9357af",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "a01be6f6-3f0a-4aa4-8e20-76d094bb8b74",
+Name: "ExampleComponent2",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/a01be6f6-3f0a-4aa4-8e20-76d094bb8b74",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "414d9253-9606-4410-a7be-5d7b018543d9",
+Name: "Installed Apps",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/General",
+ShowcardAspectRatio: "SixteenByNine"
+},
+{
+Id: "3a83bf92-3579-4f67-88d1-d0e894759c70",
+Name: "Netflix",
+FeedType: "Dynamic",
+Uri: "udl://netflix/titles",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "dacf66fb-71dc-4042-9fa7-325ee4d2cb7f",
+Name: "Games",
+FeedType: "Dynamic",
+Uri: "udl://native/apps/games",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "All Games",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "1109889d-1392-4b80-a344-4f23345f9c65",
+Name: "Installed Games",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/Game",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "64a5a6bd-ef0d-4020-8e7f-dc855acf8651",
+Name: "Device Apps",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/allapps",
+ShowcardAspectRatio: "SixteenByNine",
+IsStacked: false
+},
+{
+Id: "4a355412-0d05-4752-9e21-fa0137fc8c08",
+Name: "Device Games",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/allgames",
+ShowcardAspectRatio: "SixteenByNine"
+},
+{
+Id: "2e3d33f8-551b-477e-8a3f-1bda9c9705f3",
+Name: "Device Featured Apps",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/featuredapps",
+ShowcardAspectRatio: "SixteenByNine"
+},
+{
+Id: "c8c70608-7d27-469f-b058-02c2bdf6fab0",
+Name: "Test",
+FeedType: "Mixed",
+Uri: "udl://live/feeds/playableChannels/",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "liveTvGuide",
+NavigationTargetText: "View Guide",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "a5b59292-cc1b-4687-ad09-e15820b7b3d2",
+Name: "CogecoMixed",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/a5b59292-cc1b-4687-ad09-e15820b7b3d2",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "See More",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "9d498a02-3ba8-48e0-a727-5be47b76aa66",
+Name: "All Installed Apps",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/featuredapps",
+ShowcardAspectRatio: "SixteenByNine",
+IsStacked: false
+},
+{
+Id: "2d49f202-b921-4fa5-a7b3-895bfdf8a00d",
+Name: "test2",
+FeedType: "Mixed",
+Uri: "udl://netflix/titles",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "a0c3ba82-4726-40de-af05-3e19f03f523d",
+Name: "Gallery",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/a0c3ba82-4726-40de-af05-3e19f03f523d",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "4e16ec83-6387-4e68-ba71-0f0020b7efeb",
+Name: "Category",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/4e16ec83-6387-4e68-ba71-0f0020b7efeb",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "f6435c6f-d992-42a7-9ce9-4f6b4e91173a",
+Name: "My Apps",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/f6435c6f-d992-42a7-9ce9-4f6b4e91173a",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
 }
 ],
-profile: {
-name: "typicode"
+IsApplicationHub: true
+},
+{
+Id: "9f35385f-29e3-480b-94fd-7efe163f2b8f",
+Name: "Cogeco IsNew",
+Feeds: [
+{
+Id: "8145627d-893a-4d69-8918-b909b66c1ccf",
+Name: "New Movies",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies?LicenseWindow=New",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies?LicenseWindow=New",
+NavigationTargetText: "New Movies",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "0136a237-20c2-4cc5-9d76-64bf927b097f",
+Name: "New TV Shows",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows?LicenseWindow=New",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsetv?LicenseWindow=New",
+NavigationTargetText: "New TV Shows",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "b1e80988-587f-4bef-b7be-734c9f2a3fc5",
+Name: "New TV Shows and Movies",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/moviesandtvshows?LicenseWindow=New",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemoviesandtv?LicenseWindow=New",
+NavigationTargetText: "New Movies and TV Shows",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "74e96774-9764-4262-8014-4b73718a7f95",
+Name: "MixedAppTest",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/74e96774-9764-4262-8014-4b73718a7f95",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "See More",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "c0452a32-4e29-4f30-97f3-fa95ec536c24",
+Name: "New Movies by Genre",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies?LicenseWindow=New",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
 }
+]
+},
+{
+Id: "c0518938-af5b-4e42-9284-b57e7fac912a",
+Name: "Live Test",
+Feeds: [
+{
+Id: "3f16b650-f335-406f-84ed-b51d8c624e65",
+Name: "Catch up",
+FeedType: "Dynamic",
+Uri: "data://live/feeds/hubRestartTvShowcards",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "restartTv",
+NavigationTargetText: "All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "6397c623-5708-4563-b482-292271b924b9",
+Name: "AdultMask",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/playableChannels/",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "liveTvGuide",
+NavigationTargetText: "ViewAll",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: false
+},
+{
+Id: "c046bcfe-0bff-4850-8472-5b97a47cc96c",
+Name: "youShouldLike",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "youShouldLike",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "8f559be6-1fa0-466e-8849-8ab52bf27dc6",
+Name: "Live Trending Programs (Olena)",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/feeds/live-trending-programs",
+ShowcardAspectRatio: "Mixed"
 }
+]
+},
+{
+Id: "e5c0589f-8aa9-4360-b0e6-baa74de5436c",
+Name: "Anna_Epam",
+Feeds: [
+{
+Id: "120347a9-809f-4569-b7bd-15610320b665",
+Name: "All Movies",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "All Movies",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "3f8cd601-2326-4b87-b524-08e221b43f78",
+Name: "Kids",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/3f8cd601-2326-4b87-b524-08e221b43f78",
+ShowcardAspectRatio: "TwoByThree",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "All Kids",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "abbf3a86-31bd-4f23-9c32-a58590663a42",
+Name: "Shortcuts",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "5b5f2497-c1e6-442a-a3e5-106227ddbd01",
+Name: "Custom Sub-Category",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/5b5f2497-c1e6-442a-a3e5-106227ddbd01",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "7d7d5ee7-98d9-4ddf-a54d-47d9b6848a9c",
+Name: "Custom feed content",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/7d7d5ee7-98d9-4ddf-a54d-47d9b6848a9c",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "adb3b825-1718-458a-ac82-b6302026028f",
+Name: "Mixed sub-category",
+FeedType: "Mixed",
+Uri: "udl://dvrproxy/subscription-items/?$genre=Children&$recordingState=viewable",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "843a04eb-6d91-41d9-babb-924bae1b03ab",
+Name: "Mixed feed content",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/843a04eb-6d91-41d9-babb-924bae1b03ab",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "f436b14d-1944-49f2-81e8-5abd4fce9e5a",
+Name: "Custom Sub-Category with category view",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/f436b14d-1944-49f2-81e8-5abd4fce9e5a",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "a54621b5-3f49-4ab6-809a-d9bc79ab90e1",
+Name: "Subscriptions",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/feed/subscriptions/{0}?status=unsubscribe",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsenetworkitems",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+},
+{
+Id: "13be7905-627b-4d36-be02-1e505597b9e6",
+Name: "Bell On Demand",
+Feeds: [
+{
+Id: "2e23d36c-ec72-45b6-bcb5-e8a4f8c7a0aa",
+Name: "Shows",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/2e23d36c-ec72-45b6-bcb5-e8a4f8c7a0aa",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Shows",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "71eeadc3-4dd7-4268-bc11-e4414a4fa1a3",
+Name: "Movies",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/71eeadc3-4dd7-4268-bc11-e4414a4fa1a3",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "ec033171-142f-4cb4-8e1d-7088cf1f5a06",
+Name: "Recommendations",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/ec033171-142f-4cb4-8e1d-7088cf1f5a06",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "3a6b8c7e-9d8d-43a1-91d1-93fe00d4c35f",
+Name: "The Movie Network",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/3a6b8c7e-9d8d-43a1-91d1-93fe00d4c35f",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "13c9a228-a1af-4011-a3d7-23ff36d3cb4b",
+Name: "Crave TV",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/13c9a228-a1af-4011-a3d7-23ff36d3cb4b",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "54df44d8-5663-4c10-8ce3-5915f0a4a6cb",
+Name: "Family&Kids",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/54df44d8-5663-4c10-8ce3-5915f0a4a6cb",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "a7cc0de2-9f44-4e8e-9228-7a244e5bd181",
+Name: "Networks",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/a7cc0de2-9f44-4e8e-9228-7a244e5bd181",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Networks",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "d7989c00-c134-4e4f-87e0-ca9ba37b145e",
+Name: "French Movies",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/d7989c00-c134-4e4f-87e0-ca9ba37b145e",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "1aa4c64d-9560-4450-a36e-6a4cd04bc3c7",
+Name: "Heikki",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/1aa4c64d-9560-4450-a36e-6a4cd04bc3c7",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "https://localhost/feeds?id=me",
+NavigationTargetText: "this is my feed",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: false
+},
+{
+Id: "026c15f8-20c6-4895-9cc7-8608266f3ffc",
+Name: "Movies and TV Shows",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/moviesandtvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemoviesandtv",
+NavigationTargetText: "ALLMT",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "2164d9e7-49c5-4937-adfa-cce6efc7eddf",
+Name: "MoviesTVShowsGallery",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/moviesandtvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemoviesandtv",
+NavigationTargetText: "AllMTG",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+},
+{
+Id: "5f4387b3-489e-408e-9347-78f558546e8a",
+Name: "Alex_Epam",
+Feeds: [
+{
+Id: "23a04a88-9595-4cac-a52c-ff8bba81347d",
+Name: "Category with all promotional items",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/23a04a88-9595-4cac-a52c-ff8bba81347d",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "a865f55a-eb39-493c-be1a-3523e65b3e90",
+Name: "Feeds category",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Browse TVShows",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+},
+{
+Id: "99ee89f7-a1bc-463a-93d1-1adef197d882",
+Name: "All",
+Feeds: [
+{
+Id: "baa91b90-ec66-45df-bd2c-32ed778a2145",
+Name: "All Packages",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/packages",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepackages",
+NavigationTargetText: "Package {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "227d2a40-c51a-4cb0-9839-2e32187fbe0e",
+Name: "TestNetwork",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/227d2a40-c51a-4cb0-9839-2e32187fbe0e",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "all",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "cb4aef51-7e9b-422b-96d6-0737b0c78481",
+Name: "Test1",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "b9a43585-6ca0-4ee0-841e-856f8cd2b367",
+Name: "TestPromotion",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/b9a43585-6ca0-4ee0-841e-856f8cd2b367",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "02d81ccc-08b5-4194-959e-fb3eb2f345a8",
+Name: "Store",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/02d81ccc-08b5-4194-959e-fb3eb2f345a8",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "0d5fbf4d-6f0f-4b11-bf7d-835106cf0fc5",
+Name: "Eugene's feed",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Continue?types=Recording",
+ShowcardAspectRatio: "Mixed",
+IsStacked: false
+},
+{
+Id: "76838459-00c5-4ee3-ae6d-00d314c45ed7",
+Name: "Movies",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "886db4a3-c04a-47c6-b775-19aeec7ff7a7",
+Name: "TVShows",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/tvshows",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsetv",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "1118401f-f286-4756-95fa-3117f8a74a4e",
+Name: "defaultsortdynamic",
+FeedType: "Dynamic",
+Uri: "udl://subscriber/library/Library",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetText: "None",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "aeee3276-a611-42f4-bb78-7d3f6bc35303",
+Name: "MF75067",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/aeee3276-a611-42f4-bb78-7d3f6bc35303",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "98e54672-1376-477f-b529-efd2a480a0fa",
+Name: "Browse all Packages",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/packages",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepackages",
+NavigationTargetText: "{0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+},
+{
+Id: "2223f685-cbfa-4a9f-9302-0e6cf5afeac5",
+Name: "MixedCategory",
+Feeds: [
+{
+Id: "ee98ff64-8d1f-430a-9560-fb9371129363",
+Name: "CategoryYouMightLike",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/ee98ff64-8d1f-430a-9560-fb9371129363",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "browse",
+NavigationTargetVisibility: "Always",
+Layout: "Category",
+IsStacked: false
+},
+{
+Id: "dbb56e55-6baa-4fff-8ba7-1a3652aac310",
+Name: "GalleryYouMightLikePromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/dbb56e55-6baa-4fff-8ba7-1a3652aac310",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "72a49b53-c23c-4f7f-9630-d67897bcc41b",
+Name: "GalleryMoviesAndPromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/72a49b53-c23c-4f7f-9630-d67897bcc41b",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "c22e8045-36c2-4b5c-8ce5-544a28745b0a",
+Name: "GalleryTVShowsPromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/c22e8045-36c2-4b5c-8ce5-544a28745b0a",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "d8bd23c7-56cf-4200-b646-de075771ee0a",
+Name: "GalleryPackagaesPromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/d8bd23c7-56cf-4200-b646-de075771ee0a",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "01f7ee85-a54e-4d39-b6ff-fef7d0b217d5",
+Name: "CategoryMovieAndPromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/01f7ee85-a54e-4d39-b6ff-fef7d0b217d5",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "ea4098cc-ab4a-4a09-81a3-7628ee4d4c4c",
+Name: "CategoryTVShowsPromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/ea4098cc-ab4a-4a09-81a3-7628ee4d4c4c",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "3e737563-cca8-49cb-b646-347d31155d98",
+Name: "CategoryPackagePromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/3e737563-cca8-49cb-b646-347d31155d98",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "170367e2-4fa6-4140-9da3-40d9a5cd1bdd",
+Name: "CategoryPromotionPromotional",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/170367e2-4fa6-4140-9da3-40d9a5cd1bdd",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "5c07ca2d-4ef0-452a-8a96-459bd5b8b43a",
+Name: "GalleryDynamicFeeds",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "9b23ab24-dee7-4577-8d68-79581fad449a",
+Name: "CategoryDynamicFeeds",
+FeedType: "Mixed",
+Uri: "udl://subscriber/library/YouMightLike",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View All {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "675ede6b-819c-4bc2-9e8c-d57753dfbd4c",
+Name: "Mixed-CustomGalleryNavigation",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed"
+},
+{
+Id: "36f015e9-090e-4d7b-a800-b7ba4e4821d5",
+Name: "Mixed-CustomCategory-Navigation",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "5283dc9f-cdaf-4dae-9d41-35d235a95706",
+Name: "FeedGallery",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "fee76f2d-c8b3-4afb-851b-e12fd0642454",
+Name: "FeedCategory",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Browse",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "8af1a50f-3f78-4179-891f-e3a641159ccc",
+Name: "mixPlayable",
+FeedType: "Mixed",
+Uri: "udl://live/feeds/playableChannels/",
+ShowcardAspectRatio: "Mixed"
+}
+]
+},
+{
+Id: "f3ac7cb1-1a37-4122-a08f-95199b057d88",
+Name: "CustomLauncherTest",
+Feeds: [
+{
+Id: "97cf0eb9-a4f7-4229-975b-ba03c871d430",
+Name: "Device Apps",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/allapps",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "gtvsApps",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "5b14deca-3591-4f4d-b816-4786b7d9d91e",
+Name: "Device Games",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/allgames",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "gtvsGames",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "f4fb767d-2e1d-4ff0-be0d-f25406f288a3",
+Name: "Device Featured Apps",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/featuredapps",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "gtvsFeaturedApps",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "8976a04b-6c2e-4a27-9e5b-54e691ea957e",
+Name: "Device Apps and Games",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/allappsandgames",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "gtvsAppsandGames",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+}
+],
+IsApplicationHub: true
+},
+{
+Id: "bca7050b-d9f1-4f09-96cc-5ca62988664e",
+Name: "emeixia",
+Feeds: [
+{
+Id: "84b0c89c-53a6-413a-b426-3474c737063d",
+Name: "category",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/84b0c89c-53a6-413a-b426-3474c737063d",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "veiw all",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "a90422d2-c544-48d1-be24-08edf0b22ec5",
+Name: "gallery",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/a90422d2-c544-48d1-be24-08edf0b22ec5",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "view all",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+},
+{
+Id: "238908b6-a524-4be5-bfb9-f1d17e809175",
+Name: "Stacked Filmstrip Hub",
+Feeds: [
+{
+Id: "1efa1603-5e64-410d-b32c-c6055da5e8ae",
+Name: "Dynamic",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+}
+]
+},
+{
+Id: "cbd680be-ddb5-4689-be2a-450ec7ba2881",
+Name: "16x9Test",
+Feeds: [
+{
+Id: "2bc8758f-b444-431a-8447-ea5b2bd9284a",
+Name: "Dynamic",
+FeedType: "Dynamic",
+Uri: "udl://device/apps/allapps",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "gtvsPortalFeaturedApps",
+NavigationTargetText: "View All",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: true
+},
+{
+Id: "17c8d6c8-1d62-4778-8d44-7a36c45f3caa",
+Name: "Package 16x9",
+FeedType: "Dynamic",
+Uri: "udl://discovery/feeds/packages",
+ShowcardAspectRatio: "SixteenByNine",
+NavigationTargetUri: "browsepackages",
+NavigationTargetText: "View 16x9 Pakcages",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery",
+IsStacked: false
+}
+]
+},
+{
+Id: "18fb3aa2-caf5-45fd-b48b-3dd2b03e5558",
+Name: "SortOrder",
+Feeds: [
+{
+Id: "d38de027-2a60-4e82-b6d6-f4bb6994fd13",
+Name: "DefaultSortLicenseMovie",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/d38de027-2a60-4e82-b6d6-f4bb6994fd13",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "09754007-98a6-400c-a4a9-699595fc75f7",
+Name: "DefaultSortYearTV",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/09754007-98a6-400c-a4a9-699595fc75f7",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "DefaultSortYearTV",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+},
+{
+Id: "5ee6c8c7-54fe-42e6-838a-3fa78f3704ed",
+Name: "test stores",
+Feeds: [
+{
+Id: "665c0a22-2914-48d1-8095-152fe46c2775",
+Name: "subcat store",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/665c0a22-2914-48d1-8095-152fe46c2775",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "a4ebd1f8-c32b-4c74-b66e-8199e040b336",
+Name: "Netflix",
+FeedType: "Dynamic",
+Uri: "udl://netflix/titles",
+ShowcardAspectRatio: "Mixed"
+}
+]
+},
+{
+Id: "3702171e-5a05-4098-bde5-dc7ad24f52f8",
+Name: "Stores for testing",
+Feeds: [
+{
+Id: "27ca2b70-a32a-4343-879c-17e64399c1fd",
+Name: "store sub category",
+FeedType: "Custom",
+Uri: "udl://discovery/feeds/27ca2b70-a32a-4343-879c-17e64399c1fd",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "View all {0}",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+}
+],
+IsApplicationHub: true
+},
+{
+Id: "3dd193ce-1b59-4ffa-abbd-40ec3f978ad7",
+Name: "Seva_Epam",
+Feeds: [
+{
+Id: "81e50d59-a155-47d8-a3a5-453588b3fb5d",
+Name: "Mixed_test",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/movies",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Test_test",
+NavigationTargetVisibility: "Always",
+Layout: "Category"
+},
+{
+Id: "abf7d888-f3f1-4ee2-9d91-babe08530a59",
+Name: "Mixed_sub_category",
+FeedType: "Mixed",
+Uri: "udl://discovery/feeds/abf7d888-f3f1-4ee2-9d91-babe08530a59",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsepromotions",
+NavigationTargetText: "Test_text",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+},
+{
+Id: "40b7e117-0521-4b80-8fb7-a3cf30466db6",
+Name: "Dynamic",
+FeedType: "Dynamic",
+Uri: "udl://live/feeds/trending/News",
+ShowcardAspectRatio: "Mixed",
+NavigationTargetUri: "browsemovies",
+NavigationTargetText: "Testing",
+NavigationTargetVisibility: "Always",
+Layout: "Gallery"
+}
+]
+}
+]
